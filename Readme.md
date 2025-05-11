@@ -18,5 +18,13 @@
 
 ## mikeb_M
 - Starting with the final course_C version.
+- Tweak various items
+  - Change size of columns
+  - Align numeric columns to the right
+  - Change sheet name to Invoice
+- Add Customer tab to spreadsheet
+  - customer_name, customer_id
+- Move Invoice number and date to right
+- Put Customer Name and Id in upper left
 
 ## Claude_A
