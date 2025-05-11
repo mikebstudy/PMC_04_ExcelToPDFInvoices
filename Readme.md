@@ -13,7 +13,10 @@
   - each implementation is in its own folder 
 
 ## course_C
+- Minor changes to code that reflects a slightly different organization of the code
+- Tweaks in the output, but basically the same as the course produced
 
 ## mikeb_M
+- Starting with the final course_C version.
 
 ## Claude_A
