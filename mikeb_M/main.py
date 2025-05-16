@@ -12,9 +12,10 @@ for filepath in filepaths:
 
     df_cust = pd.read_excel(filepath, sheet_name="Customer")
     columns_cust = [item.replace("_", " ").title() for item in df_cust.columns]
-    for i, row in df_cust.iterrows():
-        customer_id = row["customer_id"]
-        customer_name = row["customer_name"]
+    #for i, row in df_cust.iterrows():
+    row = df_cust.iloc[0]
+    customer_id = row["customer_id"]
+    customer_name = row["customer_name"]
 
     #customer_id, customer_name = df_cust
 
